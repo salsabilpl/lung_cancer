@@ -14,7 +14,7 @@ import streamlit as st
 df = pd.read_csv('survey_lung _cancer.csv')
 
 # Mengonversi data ke dalam DataFrame pandas
-df = pd.DataFrame.from_records(data)
+df = pd.DataFrame.from_records(df)
 
 # Mengganti nama kolom
 df = df.rename(columns={
