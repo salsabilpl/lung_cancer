@@ -63,7 +63,7 @@ scaler_model = pickle.load(open('scaler_model.pkl', 'rb'))
 # Melakukan prediksi menggunakan model pada data yang telah diproses
 y_predict = model.predict(X)
 accuracy = accuracy_score(y, y_predict)
-accuracy = svc_accuracy*100
+accuracy = accuracy*100
 
 df_final = X
 df_final['LungCancer'] = y
