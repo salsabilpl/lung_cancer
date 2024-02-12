@@ -83,6 +83,7 @@ st.title("Lung Cancer Prediction App")
 st.write(f"**_Model's Accuracy_** : :green[**{accuracy}**]% (:red[_Do not copy  outright_])")
 st.write("")
 
+df_final 
 tab1, tab2 = st.tabs(["Single-predict", "Multi-predict"])
 
 with tab1 :
