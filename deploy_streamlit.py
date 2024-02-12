@@ -264,7 +264,7 @@ with tab1 :
 
     st.write("")
     if predict_btn:
-        inputs = [[Age, Gender, Smoking, YellowFingers, Anxiety, PeerPressure, ChronicDisease, FATIGUE, ALLERGY, Wheezing, AlcoholConsuming, Coughing, ShortnessOfBreath, SwallowingDifficulty, ChestPain]]
+        inputs = [[age, Gender, Smoking, YellowFingers, Anxiety, PeerPressure, ChronicDisease, FATIGUE, ALLERGY, Wheezing, AlcoholConsuming, Coughing, ShortnessOfBreath, SwallowingDifficulty, ChestPain]]
         inputs = scaler_model.transform(inputs)
         prediction = model.predict(inputs)[0]
 
