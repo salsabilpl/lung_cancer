@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # Load the data
-df = pd.read_csv('/content/survey_lung _cancer.csv')
+df = pd.read_csv('survey_lung _cancer.csv')
 
 # Mengonversi data ke dalam DataFrame pandas
 df = pd.DataFrame.from_records(data)
